@@ -71,7 +71,7 @@ header div a:hover {
     transition: 500ms;
 }
 
-/*=== CLASSES ===*/
+/*=== CARDS ===*/
 
 .cards {
     max-width: 800px;
@@ -90,7 +90,7 @@ header div a:hover {
     width: 100%;
 }    
 .card-content{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     padding: 20px;
 }
@@ -132,10 +132,10 @@ header div a:hover {
     
 }
 
-/*=== MODAL ACTIVE ===*/
+/*=== MODAL.ACTIVE ===*/
 
 .modal-overlay.active {
-    opacity: 100%;
+    opacity: 1;
     visibility: visible;
 }
 
