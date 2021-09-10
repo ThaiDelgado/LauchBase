@@ -13,3 +13,5 @@ for(let card of cards){
 document.querySelector(".modal-close").addEventListener("click", function(){
     modalOverlay.classList.remove("active")
 })
+
+
