@@ -40,3 +40,7 @@ que está sendo desenvolvido com base e em paralelo aos conhecimentos adquiridos
 __________________________________________________
 
 **Insrutor:** *Mayk Brito - Rocketseat*
+
+**Autora :** *Thaissa Delgado*
+
+**Linkedin :** *https://www.linkedin.com/in/thaissadelgado/*
