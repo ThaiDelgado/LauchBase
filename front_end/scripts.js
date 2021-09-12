@@ -5,13 +5,17 @@ const cards = document.querySelectorAll('.card');
 
 for(let card of cards){
     card.addEventListener("click", function(){
-    modalOverlay.classList.add('active')
+        const videoId = card.getAttribute("id")
+        modalOverlay.classList.add('active')
+        modalOverlay.querySelector("iframe").src = `https://www.youtube.com/embed/${videoId}` // adiciona o video. 
     })
 }
 
 
 document.querySelector(".modal-close").addEventListener("click", function(){
     modalOverlay.classList.remove("active")
+    modalOverlay.querySelector("iframe").src = "" // remove o vídeo.
 })
+
 
 
