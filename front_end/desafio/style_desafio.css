@@ -51,6 +51,7 @@ header div a:hover{
     font-size: 28px;
     margin-top: 5px;
     line-height: 38px;
+    color: green;
 }
 #profile p {
     font-size: 18px;
