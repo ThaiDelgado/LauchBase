@@ -17,5 +17,3 @@ document.querySelector(".modal-close").addEventListener("click", function(){
     modalOverlay.querySelector("iframe").src = "" // remove o vídeo.
 })
 
-
-

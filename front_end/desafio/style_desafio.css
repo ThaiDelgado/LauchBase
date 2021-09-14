@@ -157,7 +157,7 @@ header div a:hover{
     width: 100%;
     height: 100%;
     top: 0;
-    opacity: 1;
+    opacity: 0;
     visibility: hidden;
 }
 .modal {
@@ -179,6 +179,13 @@ header div a:hover{
     height: 100%;
     position: absolute;
 
+}
+
+/* === POST-MODAL.ACTIVE === */
+
+.post-modal.active {
+    opacity: 1;
+    visibility: visible;
 }
 
 
