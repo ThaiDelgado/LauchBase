@@ -116,13 +116,16 @@ header div a:hover{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
 }
 .post-img img {
     width: 100%;
 }
 .post {
     background-color:#7A67EE;
+}
+.post:hover{
+    transform: scale(1.1);
 }
 .post-title p{
     padding: 20px;
@@ -148,6 +151,35 @@ header div a:hover{
 
 /*==== MODAL ====*/
 
+.post-modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 1;
+    visibility: hidden;
+}
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+.modal .post-close {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    padding: 8px 15px;
+    color: black;
+}
+.iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
 
 
 
