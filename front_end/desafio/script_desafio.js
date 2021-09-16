@@ -1,13 +1,15 @@
+const modal_overlay = document.querySelector(".modal-overlay")
 const posts = document.querySelectorAll(".post")
-const postModal = document.querySelector("post-modal")
 
 for(let post of posts){
     post.addEventListener("click", function(){
-        postModal.classList.add("active")
+        const postId = post.getAttribute('id')
+        modal_overlay.classList.add('active')
+        modal_overlay.querySelector('iframe').src = ""
     })
 }
 
-document.querySelector(".post-close").addEventListener("click", function(){
-    postModal.classList.remove("active")
+document.querySelector(".modal-close").addEventListener("click", function(){
+    modal_overlay.classList.remove("active")
 })
 

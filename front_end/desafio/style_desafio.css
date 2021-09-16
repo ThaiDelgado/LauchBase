@@ -145,13 +145,13 @@ header div a:hover{
     background: #7A67EE;
     filter: brightness(90%);
     border-radius: 20px;
-    font-size: 10px;
+    font-size: 9px;
     padding: 5px 20px;
 }
 
 /*==== MODAL ====*/
 
-.post-modal {
+.modal-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     width: 100%;
@@ -167,7 +167,7 @@ header div a:hover{
     margin: 5vh auto;
     position: relative;
 }
-.modal .post-close {
+.modal .modal-close {
     position: absolute;
     right: 0;
     cursor: pointer;
@@ -183,7 +183,7 @@ header div a:hover{
 
 /* === POST-MODAL.ACTIVE === */
 
-.post-modal.active {
+.modal-overlay.active {
     opacity: 1;
     visibility: visible;
 }
