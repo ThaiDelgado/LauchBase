@@ -5,7 +5,7 @@ for(let post of posts){
     post.addEventListener("click", function(){
         const postId = post.getAttribute('id')
         modal_overlay.classList.add('active')
-        modal_overlay.querySelector('iframe').src = ""
+        modal_overlay.querySelector('iframe').src = `https://blog.rocketseat.com.br/${postId}`
     })
 }
 
