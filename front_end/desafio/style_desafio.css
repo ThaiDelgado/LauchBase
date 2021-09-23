@@ -44,8 +44,8 @@ header div a:hover{
     text-decoration: none;
 }
 #profile a:hover {
-    color: #836FFF ;
-    transition: 700ms;
+    color: #7A67EE;;
+    transition: 500ms;
 }
 #profile h2 {
     font-size: 28px;
