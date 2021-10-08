@@ -3,16 +3,22 @@ const express = require('express')
 
 const server = express()
 
-server.set("view engine", "html") //Configurando nunjucks
+server.use(express.static("public")) 
 
-nunjucks.configure("views", {  //Configurando nunjucks
+server.set("view engine", "html")
+
+nunjucks.configure("views", { //configurando nunjucks
     express: server
+})
+
+server.get("/", function(req, res){ //criando rota do index
+    return res.render("index")     // responde renderizando o index.html
+})
+
+server.get("/classes", function(req, res){
+    return res.render("classes")
 })
 
 server.listen(5000, function(){
     console.log('server in running')
-})
-
-server.get("/", function(req, res){
-    return res.send("Meu Primeiro Servidor!!!")
 })
