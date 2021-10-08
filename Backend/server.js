@@ -12,7 +12,7 @@ nunjucks.configure("views", { //configurando nunjucks
 })
 
 server.get("/", function(req, res){ //criando rota do index
-    return res.render("index")     // responde renderizando o index.html
+    return res.render("about")     // responde renderizando o index.html
 })
 
 server.get("/classes", function(req, res){
